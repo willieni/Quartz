@@ -113,7 +113,7 @@ namespace Quartz.Examples
                     return -1;
                 }
 
-                return t1.Namespace.CompareTo(t2.Namespace);
+                return t1.Namespace.CompareTo(t2.Namespace); 
             }
         }
     }
