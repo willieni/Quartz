@@ -99,6 +99,9 @@ namespace Quartz.Examples
             Console.Read();
         }
 
+        /// <summary>
+        /// edit by willieni
+        /// </summary>
         public class TypeNameComparer : IComparer<Type>
         {
             public int Compare(Type t1, Type t2)
